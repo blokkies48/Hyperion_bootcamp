@@ -1,0 +1,23 @@
+ask user for a positive number convert input to integer
+store numner in variable n 
+
+set a count variable to 0
+
+set n1 to equal 0
+set n2 to equal 1
+
+f_nums is set to a empty data type 
+
+if n is less than or equal to 0
+    print must enter a positive number
+else if n is equal to 1
+    print n1
+else
+    while count less than n do
+        n1 plus n2 equals n3
+        n1 equals n2
+        n2 equals n3
+        add n1 to f_nums
+        add 1 to count 
+print f_nums
+

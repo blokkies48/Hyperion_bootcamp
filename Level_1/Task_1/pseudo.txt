@@ -1,0 +1,51 @@
+// point one.
+
+set user input 
+set user inputs data type empty
+
+while user input doesn't equal 0 do
+    ask for user for a positive number input
+    convert input to a integer
+    save user input to user inputs 
+set variable max value to 0
+
+loop over user inputs 
+    if the current number is greater than max value
+        set max value to be the current number
+    else 
+        pass
+
+return the max value variable
+
+//point two.
+
+set the random numbers
+set the sum variable to 0
+
+loop over each number  
+    sum will equal the sum plus the current num 
+
+set average to equal the sum of the numbers divided by the amount of the random numbers
+return average 
+
+//point three.
+
+set grocery list
+sort grocery list 
+
+loop over grocery list
+    if item still has to be bought
+        print item
+    else
+        pass
+
+//point four.
+
+set X
+set Y
+
+set S to equal the sum of X and Y
+set A to equal the quotient of S divided by 2
+set P to equal the product of X and Y
+
+write S, A, and P to a file

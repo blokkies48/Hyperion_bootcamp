@@ -1,0 +1,20 @@
+// Got the sorting funtion from https://www.edureka.co/
+
+set input numbers to data type
+
+while input numbers length is less than or equal to 4
+    ask user to input a number
+    add number to input numbers
+
+
+set sorted numbers to data type
+
+while input numbers are not empty do
+    set the min number to equal the first index of input numbers
+    loop over input numbers 
+        if current number is less than min number
+            set min number to equal current number
+    add min number to sorted numbers
+    remove min number from input numbers
+
+print sorted numbers
