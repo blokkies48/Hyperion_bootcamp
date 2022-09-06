@@ -14,10 +14,10 @@ else if n is equal to 1
     print n1
 else
     while count less than n do
+        add n1 to f_nums
         n1 plus n2 equals n3
         n1 equals n2
         n2 equals n3
-        add n1 to f_nums
         add 1 to count 
 print f_nums
 
