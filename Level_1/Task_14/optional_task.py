@@ -1,3 +1,5 @@
+'''
+
 #Program will take in 2 user inputs and multiply them and give an output
 # 
 # 
@@ -10,3 +12,5 @@ num2 = input("enter a second num ")
 #No num1 variable set creating a (Syntax Error)
 #Prints num1 the amount of times num2 (Runtime Error)
 print("num1" * num2)
+
+'''
