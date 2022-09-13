@@ -25,7 +25,7 @@ answerYears = age + three
 #Can't add int to string(Runtime Error)
 #Should be age not answerYears (Logical Error)
 print ("The total number of years: " + str(age))
-#Missing rest of answerYears(Logical Error/NameError)
+#Missing rest of answerYears(Syntax Error/NameError)
 #answerMonths is strings so won't work(Logical Error)
 answerMonths = answerYears * 12
 #Can't add int to string (Runtime Error)
