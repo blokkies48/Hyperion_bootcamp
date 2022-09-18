@@ -85,11 +85,12 @@ e - Exit
 
     elif menu == 'a':
         # Asking user for all required information
-        who_task = input("To whom is this task allocated to: ")
+        # Keeping to lower to keep consistent with login and reg.
+        who_task = input("To whom is this task allocated to: ").lower()
         task_title = input("Tile of the task: ")
         task_description = input("Enter a short description of the task\n: ")
         due_date = input("What is the due date of the task use dd mmm yyyy format: ")
-        # Getting current date
+        # Getting current date in required format
         current_date = datetime.date.today().strftime("%d %b %y")
         # Opening file in append mode
         with open(f"{os.getcwd()}\\Level_1\\Task_19\\tasks.txt", "a") as f3:
@@ -142,10 +143,11 @@ e - Exit
             for line in f6:
                 total_users += 1
         
-        #Printing out in easy to read format
+        # Printing out in easy to read format
         print(f"\nThe total amount of users are: {total_users}")
         print(f"The total amount of tasks are: {total_tasks}\n")
 
+    # Code from template
     elif menu == 'e':
         print('Goodbye!!!')
         exit()
