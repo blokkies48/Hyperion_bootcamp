@@ -1,0 +1,8 @@
+The Min of [1, 2, 3, 4, 5, 6] is 1
+The Min of [1, 2, 3, 4, 5, 6] is 6
+The Average of [1, 2, 3, 4, 5, 6] is 3.5
+The Percentile 90 of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] is 9
+The Min of [1, 5, 6, 14, 24] is 1
+The Min of [1, 5, 6, 14, 24] is 24
+The Sum of [1, 2, 3, 5, 6] is 17
+The Percentile 70 of [1, 2, 3] is 2
