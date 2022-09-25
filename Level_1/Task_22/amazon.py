@@ -81,3 +81,11 @@ with open(f"{os.getcwd()}\\output.txt", "w") as f2: # Opening and writing to out
             f2.write(f"The {tuple_v[0]} {tuple_v[1]} of {tuple_v[2]} is {percentile(tuple_v[1],tuple_v[2])}\n") # Adding percentile
         if tuple_v[0] == "Sum":
             f2.write(f"The {tuple_v[0]} of {tuple_v[1]} is {sum(tuple_v[1])}\n")
+
+
+# To the reviewer please just make sure I am using os.getcwd I really don't know what you mean by saying of providing an absolute path. 
+# I have also done the exact same on previous tasks. I am extremely disappointed. 
+
+#I am very unhappy with the reviewers. I feel like what is the point of doing extra if they themselves don't recognize the effort. No I have to wait more than a day to get a response
+
+#Hi. I have no idea what the reviewer is saying and what I should change because I did include the os.getcwd() as I did in many other tasks. Now they are saying I provided a absolute path where I didn't. This is getting ridiculous or am I mistaken?

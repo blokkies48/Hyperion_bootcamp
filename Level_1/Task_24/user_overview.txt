@@ -1,0 +1,29 @@
+The total amount of users are: 4
+The total amount of tasks are: 5
+Users are: 
+	User: Admin
+		User's tasks: 2
+		Completed tasks: 1
+		Uncompleted tasks: 1
+		User has 40.00% of all tasks
+		User has completed 50.00% of their tasks
+		User has to complete 50.00% of all tasks
+		User has 50.00% overdue of all tasks
+	User: Jonathan
+		User's tasks: 2
+		Completed tasks: 2
+		Uncompleted tasks: 0
+		User has 40.00% of all tasks
+		User has completed 100.00% of their tasks
+		User has to complete 0.00% of all tasks
+		User has 0.00% overdue of all tasks
+	User: A
+		This user has no tasks
+	User: Jon
+		User's tasks: 1
+		Completed tasks: 0
+		Uncompleted tasks: 1
+		User has 20.00% of all tasks
+		User has completed 0.00% of their tasks
+		User has to complete 100.00% of all tasks
+		User has 0.00% overdue of all tasks
