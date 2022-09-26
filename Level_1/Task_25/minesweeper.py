@@ -48,9 +48,9 @@ def find_mines(grid):
         for tup2 in positions_tup_bomb: 
             '''
             # Comparisons done by taking the non bomb pos and seeing if the bomb pos is either + 1, - 1 with x which is row and y which is column
-            first the rows are checked with - 1 and + 1 to find if a bomb is next to the pos in the next or previous rows (line 40,42)
+            first the rows are checked with - 1 and + 1 to find if a bomb is next to the pos in the next or previous rows
             In the same line it is also checked that it is in the same column or in a column next to it
-            Next in (line 45, 47) the columns are checked this is simpler because across has already been checked
+            Next in the columns are checked this is simpler because across has already been checked
             '''
             if tup[0] == tup2[0] -1 and (tup[1] == tup2[1] -1 or tup[1] == tup2[1] + 1 or tup[1] == tup2[1]): 
                 num_at_pos += 1
