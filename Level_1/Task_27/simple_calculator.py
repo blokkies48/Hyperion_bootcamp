@@ -9,7 +9,10 @@ def operation_ans(number_1, number_2, operation_do):
     elif operation_do == 2:
         return number_1 - number_2
     elif operation_do == 3:
-        return number_1 / number_2
+        try: # If user tries to divide by zero
+            return number_1 / number_2
+        except ZeroDivisionError:
+            print("Unable to divide by zero") # None will be returned by function
     else:
         return number_1 * number_2
 
@@ -50,7 +53,8 @@ What operation would you like to be done to the 2 numbers entered
     operation_dict = {1: "+", 2: "-", 3: "/", 4: "*"} # Dictionary used to get operator
 
     with open("output.txt", "a") as f: # No need to add exception handling because the with keyword is a resource manager that closes the file even if an exception is raised
-        f.write(f"\n{number_1} {operation_dict[operation_to_do]} {number_2} = {operation_ans(number_1,number_2,operation_to_do)}")
+        if operation_ans(number_1,number_2,operation_to_do) != None: # If none isn't returned by the operation function due to zero division then there won't be anything written to the file.
+            f.write(f"\n{number_1} {operation_dict[operation_to_do]} {number_2} = {operation_ans(number_1,number_2,operation_to_do)}")
 else: # If user chose 2
     while True: # Keeps asking user till file is found
         name_of_file = input("Enter the name of the file you want to open or q to quit: ")
