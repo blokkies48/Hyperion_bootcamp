@@ -90,7 +90,7 @@ def user_choice(inbox): # Needs a inbox object to work with
             # If the user chooses send a new email will be created
             elif user_choice == "send":
                 # The user is asked to enter the 3 required variables
-                # Simple check done to see if it is a email entered. You can improve this by using regex and defining an expression to look for but I believe this is out of the scope of this task
+                # Simple check done to see if it is an email entered. You can improve this by using regex and defining an expression to look for but I believe this is out of the scope of this task
                 while True: 
                     from_email = input("Please enter your email: ")
                     to_email = input("Please enter the email you want to send to: ")
