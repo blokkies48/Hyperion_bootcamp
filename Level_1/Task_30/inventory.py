@@ -29,29 +29,29 @@ class Shoe:
 
 #=============Shoe list===========
 
-
 shoe_list = [] # Came with temp
-
-
 
 #==========Functions outside the class==============
 # Getting all the shoes function and store each shoe object into a list
 
 def read_shoes_data():
-    # No need to use try and except with the "with" keyword
-    # Because it still closes the file if an error occurred
-    with open("inventory.txt", "r") as shoes: # Opening inventory
-        next(shoes) # Skip the first line
-        for  line in shoes: # enumerate to get the first index
-            line_list = line.replace("\n","").split(",") # Splitting the line to a list
-            # Creating shoe object from getting list indexes
-            shoe = Shoe(
-                country = line_list[0],
-                code = line_list[1],
-                product = line_list[2], 
-                cost = line_list[3],
-                quantity = line_list[4]) 
-            shoe_list.append(shoe) # Adding shoe object to the list
+    
+    try: # If file isn't found
+        with open("inventory.txt", "r") as shoes: # Opening inventory
+            next(shoes) # Skip the first line
+            for  line in shoes: # looping over lines in file
+                line_list = line.replace("\n","").split(",") # Splitting the line to a list
+                # Creating shoe object from getting list indexes
+                shoe = Shoe(
+                    country = line_list[0],
+                    code = line_list[1],
+                    product = line_list[2], 
+                    cost = line_list[3],
+                    quantity = line_list[4]) 
+                shoe_list.append(shoe) # Adding shoe object to the list
+    except FileNotFoundError:
+        print("File not found")
+        exit() # Closes the programme if file isn't found
 
 def capture_shoes():
     # To keep consistent and append to file easier
