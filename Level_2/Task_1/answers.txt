@@ -1,0 +1,47 @@
+// My understanding and examples where you will use these processes.
+
+Waterfall module  - Best for single function systems
+Incremental development - Best for system that will be upgraded later on
+Reuse-oriented software engineering - Using predefined architecture like excel, wordpress and sheets.
+//
+First thing before approaching you will have to break down how each system works and functions. Also the real work implications it will have.
+//
+1.1 Anti-lock braking system
+    This will be a programme that only needs to do a single task. 
+    ABS works by increasing and reducing the pressure to the brakes to avoid wheel lock.
+    Resulting in this system only really having one function.
+
+    Through my evaluation I believe the "waterfall module" will be the best fit.
+        Because it is a one function system only done to check and adjust brake pressure and relies heavy on hardware.
+        I also believe due to the fact that this is safety involved it an error occurs, the whole system should be re-evaluated. Hence the waterfall module will be the best fit.
+    That being said a company might have already a system designed for ABS.
+        So when they create a new car model they may be able to use a previous car's ABS system with slight adjustments if needed but this isn't specific to the task.
+        
+1.2 VR system.
+    A VR system for software maintenance would be a complicated system that will most likely need constant changes and updates. Especially for software maintenance, because said software tend to also get updates and changes. Unlike something physically that doesn't tend to change often.
+
+    Through my evaluation I believe "incremental development" would be the best fit.
+        This is due to the nature as stated above that constant changes and updates will have to be made when creating and maintaining such a complex system.
+
+1.3 University accounting system.
+    This is something that millions of over institutions and companies do. As a matter of fact, every single organization in the world does need accounting.That being said we definitely don't need to re-invent the wheel. 
+
+    My evaluation is that the best fit will be "reuse-oriented software engineering".
+        There are already a thousands of programmes that are accounting related. They tend to be extremely customizable even if it doesn't seem so at first. One example is excel. You can add your own code and functions. Creating your own system that is unique to the institutions.
+
+1.4 Travel planning system.
+    As stated in the VR system above. There will be a ton of customizable things that will needed and there will also need to take in data to examine like CO2 emissions and more. Programmes like wordpress will most likely be enough for a basic travel website.
+
+    Through my evaluation I believe that "incremental development" will be necessary.
+        This is due to the fact that programmes like wordpress will just not be customizable enough and not be able to scale that well if there is another feature that the client wants to add.
+
+2. Incremental development is best for development of a business software.This is because of the nature if how the development process works. 
+    When you have your first build of the software you can show it to the client and if they want changes it can easily be changed and if a fatal error occurs when making changes you can easily refer back to an older build.
+Understanding why real time systems will help understand why we won't really use incremental development.
+    Real time systems tend to take in data to process in real time. This is done mainly by hardware so modifying it won't be easy to do. Thus creating versions after version won't be easy. 
+    Another aspect like the ABS it can be safety related so when building there shouldn't be major errors or mistakes, so it should be extremely well planned out before building and if an error occurs then the whole system should be reevaluated.
+
+3. Why you would need two separate requirements activities in reuse-oriented software engineering. 
+    As stated in the material. The requirements in the second activity should then be adjusted to the existing software.
+    If the chosen existing software can't adjust to the requirements or vice-versa. Another software will have to be chosen.
+    This is basically to make sure that both the chosen software and the requirements will function together to avoid having to change the base software later on which I believe will be expensive and time consuming.    

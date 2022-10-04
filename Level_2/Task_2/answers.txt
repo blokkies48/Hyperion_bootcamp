@@ -1,0 +1,35 @@
+1. Agile Manifesto
+    Working software over comprehensive documentation:
+        I can see the pros and cons of this point. Firstly as the saying goes "the proof is in the pudding". This applying here that the most important thing is that the programme works correctly and documentation doesn't directly influence this.
+
+        That point being made. Documentation does indirectly influence the programme. If it isn't properly documented the same code might be implemented more than once or legacy code never gets removed. As they say no code lasts as long as legacy code that has to be removed later. 
+        In the end resulting in a working, slow, and a pain in the head app to maintain. 
+
+        In the notes it mentions user feedback to guide the programme's direction. This can be good and bad. 
+            Being over ambitious trying to implement as much of the user's  might result in an extremely complicated programme with redundant features.
+            On the better end developers should always put their user's feedback as a top priority. Because at the end of the day they are your customers and you want them to come back. 
+        
+        Caution should always be taken and thorough research should be done before undertaking committing to features. That is why a update every few weeks might not be a good idea. Because with updates come vulnerabilities that can be exploited and just cause greater stress. Affecting point one in turn.
+
+    Customer collaboration:
+        This in the point stated is a no-brainer, but like it says the customer is a key member and that can be a major problem. Sometimes the customer just doesn't understand the processes that go into development. Resulting in more of an nuisance to the team.
+        They say the customer is always right, but they should know their place and it is up to the team to make sure that it is kept that way in a respectable manner.
+        A bad customer can at the end of the day cost a company more than that they actually make them. 
+
+    Responding to change
+        This goes back to working software. The developers should try to limit releases. It won't help your programme if it is released at a poor state and fixed with short bursts of patches. Just look at the gaming industry. 
+        Rather have an working programme to start with and go on from there. They say first impressions matter the most. 
+
+2. Agility
+    Simply as I understand it. Agility is a way of undertaking development of software. It is designed to streamline the process and help guide to a better user, developers and team members relationship.
+
+3. Requirements change:
+    Requirements change same as the world changes. One day something might be trending that wasn't before. Just look at social media. When Snapchat became popular every other social media implemented "stories". Now with tik tok all the others created their own versions. 
+    Another reason some features might not be used or just getting old. Another social media example is the "poke" feature from Facebook. Personally I'm not sure if it is still there, but no one uses it anymore making it redundant. 
+    Another point I want to raise is when the programme's development started they might not have thought or noticed some feature that might improve the usability or just overall experience of the programme or the client/users would just like the change. 
+    One more could be to improve the UX of the programme. If a button gets pressed a lot the designers might want to move it to a more visible location or change the button design. 
+
+4. Test-first 
+    This I can personally speak out of experience. If you know what can go wrong you will automatically programme a more stable programme. 
+    When I created my own functions that required a result after running test cases and realizing where I went wrong I could improve my code and at the end it will run all test cases. 
+    In general in life if you know what can go wrong you will automatically better prepare yourself than just knowing what should happen. That is why we wear seat-belts when we get into a car.
