@@ -1,0 +1,43 @@
+// the website http://www.pnwx.com/
+
+I think this UI isn't that good looking, but functionality is ok.
+    The UI looks very 90s with bright and contrasting colours. 
+    That being said, the site is straight to the point and easy to understand. Me as an user will most likely navigate this site with more ease than a bloated site.
+    A ton of tables help convey information fast and easy to understand.
+
+    This site:
+        Keeping it simple
+
+        Uses common UI elements search top and contact bottom. What you will expect. This website also doesn't have an online shop it is only a catalog as stated in the footer of the site.
+
+        Poor use of colours and textures where this site falls short.
+
+        No SSL so online payments isn't trustworthy and the look also puts me off. Personally as a new user I won't buy from this site.
+
+    Final thoughts.
+        Usable and easy to navigate and fast loading. 
+        Poor image quality and unappealing colours. Makes me not wanting to stay. 
+        No SSL makes it look sketchy 
+        Looks like it was made in the 90s and never updated
+
+
+// https://www.ucook.co.za/
+
+Firstly this is a very good-looking UI, but a bit cluttered.
+    Overall this site follows modern trends very well and keeps consistency throughout the site. Just a bit cluttered for my taste, but most modern sites are like that
+
+    This site:
+
+        As said a bit cluttered for my taste, but it is to be expected form a modern day website.
+
+        UI elements are consistent. Except for the shopping part when adding to cart. Amazon has set the standard and when getting a sale you don't want to stray from that and scare people off.
+        // https://www.ucook.co.za/wine/creation-viognier-2022 for reference. Add to cart and should be on the right to left. 
+        Not a major issue but still not up to standard.
+
+        In point 3 everything is well done and this site does make me want to continue browsing. Same the high quality photos help.
+
+        Communication is also very clear you know where to go and all the information is there for you to see.
+
+    Final thoughts:
+        Due to the images and all the dynamically loaded products I can see the load times suffer, but yes this is common for modern sites. Also don't think there is a lazy-load feature, but might be mistaken. 
+        Overall a very pleasant e-commerce site and I do feel confident to buy something on it.
