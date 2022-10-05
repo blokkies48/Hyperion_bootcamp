@@ -1,0 +1,72 @@
+// Breaking down the problem.
+System requirements for ticket selling system.
+    Automated  user inputs.
+        User press start.
+            Menu display with potential destination and message prompt user to select an option.
+    User selects destination
+        The user will be asked to enter their credit card
+            Validity is checked of card
+        User will enter id number.
+    Issue rail ticket and charge card if card is valid.
+//
+
+Ambiguity: What might not be clear or misinterpreted.
+    In the perspective of the developer.
+    When developing or before.
+        The scalability of the system when incorporating more locations. For example should the locations be represented in a drop down menu or a screen of widgets.
+        Where the prompts must be displayed. For example must it be a pop-ups or somewhere on the screen.
+        The id validation system should it be the person's id number. Then how must it be validated, because people from different countries have different ids. 
+
+    In the perspective of the user.
+    After development.
+        If the menu to display the locations is too cluttered it might get confusing for the user to navigate it.
+        When entering their personal details the user should feel secured as stated in the notes.
+        Ticket should be displayed or printed immediately at the point of sale to avoid unnecessary stress and confusing for the user.
+
+Omissions: What has been left out.
+    As discussed in the prior tasks it was mentioned that to fully understand what all the functionality of a programme you must first know what can go wrong. In the question there was one mention of an error but not how to handle it.
+    
+    Error handling.
+        Some errors to consider just out the top of my head is.
+            Invalid id
+            If tain is full.
+            Train not available that day.
+            Close programme mid interaction if user changes their mind
+
+
+Some non-functional requirements
+
+    Usability:
+        Some usability features that can be added:
+            Train schedules
+            Search bar
+            Help button
+            Color coded if train is available or not
+            Search filters
+
+    Reliability:
+        Reliability I would say has to do with error handling.
+        Such as the errors mentioned above and more.
+
+    Performance:
+        With languages like python they say it is a "slow" language, but it isn't slow just poor code is slow. First of all the language should be decided to use and quality checks should be constantly be done to avoid unnecessary slow-downs in the code.
+        Also the hardware should be carefully considers to avoid having insufficient processing power or just not communicate between each other that well. 
+        Performance is one of the most difficult topics to get correct. But it is extremely important through out.
+
+    Security:
+        The sensitive data should be end to end encrypted to avoid intersecting of the data and using it by people will ill intent.
+        Also this system I imagine will work like an atm. So it must physically also be tamper proof to avoid credit card fraud or just mischievous sabotage attempts. 
+        A screen with a low viewing angle should also be used to help avoid those overly curious bystanders.
+
+    (+):
+        Design constraints: 
+            Set out a clear set of rules to follow after research.
+        Implementation requirements: 
+            Fast language meaning more forgiving towards mistakes like java or c++ to reduce the overall cost of hardware because less powerful hardware can be used. Development time might be a bit longer.
+        Interface: 
+            The colour and style of the GUI should be clear and understandable. So no comic sans 
+        Physical requirements:
+            This goes back to above mentioned in security and performance.
+        Supportability requirements:
+            The company should have a team that is dedicated to installing and maintenance of their systems. There should also be a customer success team to help with enquiries.
+        
