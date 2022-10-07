@@ -1,0 +1,39 @@
+Soap:
+    Chemical contents is safe for human.
+    Can kill most germs
+Aeroplane:
+    Quality of pop-riveted joints.
+    Mechanical parts functions correctly
+    Air tight 
+    Instruments are accurate 
+    Working communication systems
+Curry:
+    Restaurant:
+        No allergens are added without customer knowledge. i.e peanuts 
+        Clean kitchen and cutlery
+    Shelf bought powder:
+        No allergens are added without customer knowledge
+        Shelf live
+        Safe for human consumption
+        Will each box taste the same
+        
+
+High quality software process will lead to high quality so software because of the constant scrutinizing of the code. Errors that are missed by one can be found by the next QM and so on.
+This process will be necessary for programmes that have high security involvement. Due to malicious people and software that can exploit any weaknesses. For example, python had no limit the the string to int conversion where in python 3.10 they set a limit. This done to help avoid DOS attacks. https://www.youtube.com/watch?v=eTucYT2LpNU
+One major problem that comes with having constant checks is that it takes a lot of time to do said quality checks. This can result in longer development times and the overall cost of develope to increase a fair amount because QM tend to be expensive.
+
+Discovering techniques:
+    First a bit of personal experience. I worked in the metal industry and whatever I worked on had to be checked after building, then once after welding, and then a final inspection by the client. Now this software quality managing systems is similar to what I am use to.
+    The software should be inspected in stages or after each process. Because when moving to the next step you might notice an error from the previous step that can cause major set backs.
+Errors missed:
+    Some errors that will be unlikely to be discover might be small errors that can effect the efficiency of the overall application. One error might not be a problem, but if they stack it can cause major slow down in code. An example people can look at is python itself. It is said it is a slow language, but it is usually slow due to poor code, it is rather a less forgiving language. 
+    Why some of these errors can be missed during inspection is just due to the fact that the QM might not have enough time to thoroughly inspect the code or just not do it properly. This is where peer to peer review (agile) will be better. 
+
+Difficult to validate between internal and external attributes.
+    Development:
+        Due to how the process checks each component separately. There will be some scope to follow for each component, but you will truly only see if they work together when you put them together.
+        Most likely new errors will occur that wasn't thought of or expected. Same as one person's work can be of a higher quality than another person's work. That can result in confusion.
+    Client-developer relationship:
+        As stated in the notes some have different opinions on what is important and what isn't. Makes it difficult to match what every stakeholder has in mind. 
+        This context the internal attributes being the development and the external being the desired outcome. 
+    

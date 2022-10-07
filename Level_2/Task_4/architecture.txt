@@ -1,0 +1,46 @@
+Layered architecture:
+    Operating systems not necessarily windows and mac but more for point of sale terminals:   
+        I believe because if you think about it an operating system requires a user input it then has to be processed and verified and some operation happens then info is retrieved from a database database. 
+    Emails:
+        This is similar to the above mentioned item. User has to log in then taken to their representation if the database of emails where they can add and delete till their heart's content the and it is updated to the database. 
+Repository architecture:
+    Local area networks:
+        There is usually one server at a company that bunch of employees connect to where data is stored and retrieved from.
+    Online games servers:
+        This is only referring to the servers them self and not the game. Meaning when a lobby of users connect to a single server all the user data is uploaded to said server and passed back to all the other user. That is where the term ping comes from it is the total time it takes the user to send and retrieve data from the server.
+    Websites:
+        Similar to game servers. Websites tend to be hosted on a single server and all the users connect to said server. 
+    IDE:
+        This is more where you can deposit in a repository and pull from it. Like github or locally. If something goes wrong with the repository, the code on the device is fine, but you won't be able to push or pull anything.
+Client-server architecture:
+    Internet:
+        The internet is a bunch of servers and computers connected to each other. So multiple clients can connect to the network and navigate to millions of different servers. This might be cliche but you can look at it as the road system and a bunch of people can drive on the road to different destinations. But if the road fails no-one can go anywhere. Similar if your internet connection is down only you are locked from the system.
+    Block-chain:
+        I by no means am an expert on everything block-chain related, but as far as I understand it is a bunch of computers connect to create a super computer to do extremely complex and difficult calculations. 
+        What is where the term mining comes from all you are doing is adding power to said super computer and getting paid for your effort.
+    Torrents:
+        This works by seeding and leeching at the end of the day a seeder has the files on their computer and is allowing a leecher to access it. So one leecher can access a lot of different seeders and vice-versa.  
+Pipe and filter architecture:
+    Games:
+        This is relating to the software itself. The game it self constantly listens and reads once per frame or delta time. If the user supplies an input then the game responds and continues to listen. 
+    AI:
+        AI usually has a ton of data input and has to be filter constantly to give an appropriate responds. 
+    Development environments:
+        This includes IDE. For example, when working with a game engine you usually have a lot of data input from more than one programme. For example unity uses visual studio for scripting. So data from visual studio is fed into the game engine. 
+
+First, example is Gmail:
+    Will use layered, repository and client-server.
+        If you think about it. The user will first connect to the internet and navigate to the server. Where they will then log in.
+        Going:
+        -Client-server
+        -Repository
+        -Layered
+        This can also be said for most websites that have logins, but one example for this type is enough.
+
+Second example is online games.
+    Will user repository and pipe and filter:
+        The game menu will directly connect you to a server so no need to navigate to one using client-server, but there are a few exceptions. After connecting to a server. The game itself will listen to the player with pipe and filter running on the local machine. Afterwards sending input data to the server and download other's data from said server.
+        Going:
+        -Pipe and filer (stating game)
+        -Repository (Connecting to a server)
+        -Pipe and filer - Repository (Playing game. sending and receiving data)
