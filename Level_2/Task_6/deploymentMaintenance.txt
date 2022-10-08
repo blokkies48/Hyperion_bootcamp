@@ -1,0 +1,65 @@
+
+Different methods of deployment:
+    Direct deployment:
+        Pros:
+            New system is implemented faster.
+            If there isn't a system in place already. (New system)
+        Cons:
+            Might overwhelm employees especially if they worked with the old system for many years.
+            Company won't be able to do business while systems are changed.
+            Time will be needed to train employees.
+            If system fails will cause major issues and lost time.
+        Use case:
+            I would say this will be better suited for small companies because the of the few amount of people need to be trained and they most likely be up and running sooner to keep up with competition. I would also recommend only doing this if it is a tried and test software (OTS).
+            Or when implementing a completely new system where their was no system before.
+    Parallel deployment:
+        Pros:
+            If system fail the old one can still be relied on
+            Training can occur while systems are running.
+            New system can directly be compared to old one.
+        Cons: 
+            User will have to enter data in two systems that will take more time.
+            Cost more to run two systems at a time. Like cost of subscriptions to old software or renting another server.
+            Greater chances of human error due to duplicated tasks
+        Use case:
+            Implementing a new system in a large company or if a critical system has to be replaced. 
+            If there is failure then the old system can still be relied on.
+    Phased deployment:
+        Pros.
+            No need for entering data twice
+            Shorter bursts of training needed.
+            If failure then reverting back won't be that costly
+        Cons:
+            If failure at the new implementation might affect the rest of the old system.
+            Take long to implement due to having to go back and refactor with every error.
+            Errors can occur again even after fixing them due to not being sure how the whole system will work together.
+        User case:
+            This is best for somewhere in the middle of the two cases mentioned above. Where a company wants to be careful, but also not want to have unnecessary expense. 
+    Pilot deployment:
+        Pros:
+            Not affect the whole company if an error occurs. 
+            Once the first group understands the system they can help train the next group.
+        Cons:
+            Might work for one group and not for the next. Not scale very well.
+        Use cases:
+            When a large tech company wants to test a new feature before making it available to the rest of the world. They will first make it available to one or more region. 
+
+
+Scenarios: 
+    Second-hand book shop:
+        I will use parallel:
+            because to make sure it works and nothing will get lost if the system fails.
+            They can enter both on paper and in the system for about a week and if everything goes well then the software will be fully implemented.
+            /Side note/ Direct will be an option but only if I am fully confident there will be no errors and the employees understand the system well enough before.
+    Retail chain:
+        I will use phased here with parallel and pilot.
+            -Phased to implement each branch system at a time.
+            -In the desired system some stores will use the new system.
+            -These stores will use the new system in parallel with the old one.
+    Fire alarm:
+        This will definitely be parallel.
+            Due to the serious consequences of failure being too high. I will have to be 110% sure and a bit that the new system will work when it is needed to.
+            /Side note/ Most likely here when developing the new system the old system will be included as a back in the system itself.
+
+// sources //
+https://computersciencewiki.org/index.php/Implementation_methods

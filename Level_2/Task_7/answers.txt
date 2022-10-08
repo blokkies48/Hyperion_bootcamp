@@ -1,0 +1,33 @@
+1. Protocol:
+    Protocol itself is a specific way a task has to be done.
+    In the terms of HTTP requests, protocol will be what must be done by the server to know what to return client sends said protocol and the server then returns the request. 
+2. HTTP built
+    TCP (Transmission Control Protocol) This is where the client sends a request to the server and the server sends information back. HTTP is basically this just with extra information attached to communicate over the internet. 
+3. Successful response:
+    200
+4. CRUD (Create, Read, Update, Delete):
+    CRUD : HTTP
+    Create: POST  # Sending data to the server
+    Read: GET # Retrieving the information from the server
+    Update: PUT/PATCH # Updating information on the server
+    Delete: DELETE # Removes information at requested location
+5. Stateless:
+    Every request sent to the server is not related to the previous request sent to the server.
+6. Valid MIME:
+    - text/javascript
+    - text/calendar
+7. Unauthorized
+    401 if identity is not known.
+    403 if identity is known but not authorized.
+    407 if someone else has to authorize it.
+    418 if server picks up that authorize and unauthorized requests are sent through the same request.
+
+
+
+
+// Sources //
+https://www.lifewire.com/hypertext-transfer-protocol-817944
+https://www.learnhowtoprogram.com/c-and-net/basic-web-applications/http-crud-methods
+https://www.tutorialspoint.com/http/http_methods.htm
+https://brightsec.com/blog/cross-site-request-forgery-csrf/
+https://meta.stackexchange.com/questions/185426/stack-overflow-returning-http-error-code-418-im-a-teapot
