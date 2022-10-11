@@ -1,0 +1,23 @@
+Data:
+    In the case of a computer:
+        Data is the initial unorganized information that is fed to the computer through hundreds of different methods. For example this text is fed to the computer where it won't know what to do with it. Only after stating it is a .txt file the computer will know what to do with it. Similar you won't run python from a .txt file you will first have to change it to a .py file so the computer will know what to do with it.
+        Same with databases, you have to organize it into tables for them to make sense.
+Field:
+    A field represents a column in a table in a data base. A field will typically store one type of data. E,g Address or Names.
+Record:
+    A record represents a row in the table of the data base. For example if you have a table of students with the fields of id, name, course. Then on student in that table will be a record.
+File:
+    This is where all the organized data is stored. In a relational databases the tables or fields can be connect with key.
+
+DBMS is a database management systems.
+    Similar to IDEs they make it a lot easier to work with databases. They help users to connect to the database and get/modify what they need fast and securely.
+
+Data vs information:
+    As I understand it data is the unorganized information that is fed to the computer. Imagine self driving cars. They have tons of sensors that that read in data from the world around the car. Then it is up to complex algorithms to process said data to get the information on what to do next.
+
+Metadata:
+    Metadata is extra information sent to describe the information passed. It is data about data for example, when was it created, where it is coming from who is the author. 
+    This is also used for example when blogging. Data about the post is sent in a meta tag that can include the information on who, what and where the post was created.
+
+5. e) the file contains 4 records.
+5. f) 5 fields
