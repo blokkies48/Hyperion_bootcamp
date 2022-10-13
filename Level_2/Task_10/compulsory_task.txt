@@ -1,0 +1,27 @@
+Normalisation:
+    This is done to remove redundant data to create a more secure and consistent information. According to the notes, 
+    - Each table only has data directly relevant to the subjects.
+    - No data should be duplicated in multiple tables.
+    - All fields should be dependant on the primary key.
+    You can think of normalisation as stabilizing the table.
+
+NF in normalisation. According to the notes.
+    1NF:
+        - All key attributes are defined.
+        - No repeating groups.
+            No null values
+        - All attributes are dependant on the primary key.
+            Identify primary key
+            Identify all dependencies
+    2NF
+        - 1NF criteria met.
+        - No partial dependencies.
+            Rather split the tables into separate tables and linking them together with the primary keys. 
+    3NF
+        - 2NF criteria met.
+        - No transitive dependencies.
+            No one dependant should depend on another field in the same table. The nots example where hour rate is dependant on the job class and not the employee's number. So job class can have its own table with the rates then the employee table can easily just refer to the job table.
+
+
+
+    

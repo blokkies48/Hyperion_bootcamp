@@ -1,0 +1,45 @@
+// Creating tables
+CREATE TABLE Students(
+    STU_NUM char(6),
+    STU_SNAME varchar(15),
+    STU_FNAME varchar(15),
+    STU_INITIAL char(1),
+    STU_STARTDATE date,
+    COURSE_CODE char(3),
+    PROJ_NUM int(2)
+);
+
+// Inseting the two students
+INSERT INTO Students
+    VALUES (01,"Snow","John","E","05-Apr-14",201,6),
+    (02,"Stark","Arya","C","12-Jul-17",305,11)
+
+
+// Selecting all students from the students where the course code is 305
+SELECT * FROM Students WHERE COURSE_CODE = 305
+    
+// Changing the course code where the student number is 07
+UPDATE Students
+SET COURSE_CODE = 304
+WHERE STU_NUM = 07
+
+// Deleting a row in the table with operators
+DELETE FROM Students 
+WHERE STU_FNAME = "Jamie" 
+AND STU_SNAME = "Lannister" 
+AND STU_STARTDATE = "05-Sep-12" 
+AND COURSE_CODE = 101 
+AND PROJ_NUM = 2;
+
+// Updating students project numbers with 2 parameters
+UPDATE Students
+SET PROJ_NUM = 14
+WHERE STU_STARTDATE < '01-Jan-16' AND COURSE_CODE >= 201;
+
+//Deleting all data from table but not the table
+DELETE FROM Students;
+
+//Deleting the students table
+DROP TABLE Students;
+
+
