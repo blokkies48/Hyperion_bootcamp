@@ -1,0 +1,31 @@
+# This file is used to create the database
+from asyncore import write
+from database.populate_database import *
+import os
+import sqlite3
+
+
+
+# Database objects
+db = sqlite3.connect("database\\ebookstore.db")
+cursor = db.cursor()
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS ebookstore 
+    (
+    Id INTEGER PRIMARY KEY, 
+    Title TEXT, 
+    Author TEXT, 
+    Qty INTEGER
+    )
+    ''') 
+# Run this code only once with the initial starting program to build initial database create a file to check than when programme start again the file will be there and code won't run
+if not os.path.isfile("first_time\\first_time_done.txt"):
+    cursor.executemany("INSERT INTO ebookstore VALUES (?,?,?,?)", books)
+ # Creates file to check against
+with open("first_time\\first_time_done.txt", "w") as first:
+    first.write("File used to check if this is the first time the programme ran")
+
+
+# //Sources//
+# https://www.geeksforgeeks.org/python-check-if-a-file-or-directory-exists/:~:text=isdir()%20Method%20to%20check,an%20existing%20directory%20or%20not

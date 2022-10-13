@@ -1,5 +1,4 @@
 import sqlite3 
-from random import randint
 
 # Creating the file and cursor object
 db = sqlite3.connect("python_programming.db")
