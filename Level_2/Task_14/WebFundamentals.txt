@@ -1,0 +1,18 @@
+What is web 3.0
+    As far as I understand it web 1.0 was just static websites similar to a book that’s just online. You can’t interact with others or with the content. Then web 2.0 is similar to 1.0 but now you are able to interact with the websites then other users can interact with the website and you can have a conversation through the website. Where web 3.0 will be direct contact to each other no third party that can monetize or change up your interactions.
+    I personally have made a few blogs and wordpress websites. And in wordpress you as the web owner you can remove or literally change the text in the comment. I won’t say this is web 3.0 because the lack of user privacy and web owners can change up whatever you are saying. 
+
+Front end.
+	The front end of a website is the functionality of it, how the user views it and how the user can interact with the website. This all includes UX design fundamentals. I personally am not the person for UX or just design in general. 
+
+Back end.
+Back end is where all the logic takes place for the front end. For example if a user clicks on a button what does that button do. I personally prefer the back end. I enjoy the logical aspects of any sort of development. 
+
+
+Process when requesting a web-page.
+	This can be summed up in a few steps.
+        First you enter the request in your browser or web-app
+        The request is sent to the DNS to get the IP
+        IP is then sent to the server
+        The server does its authentication
+        Then what you requested is sent back or an error.

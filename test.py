@@ -1,5 +1,8 @@
 # Just for playing with and testing code. Deleted after each use.
 
-
-print(int("\n30"))
+s = "paper"; t = "title"
+def is_iso(s,t):
+    if len(s) == len(t):
+        for char in s:
+            pass
 
