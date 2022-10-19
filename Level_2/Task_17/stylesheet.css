@@ -1,0 +1,79 @@
+/**/
+/*This is the design for the hero*/
+.hero{
+    background-image: url(products/apples-hero.jpg);
+    opacity: 0.8;
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    box-shadow: 2px 3px 2px 3px #888888;
+}
+/*Design for the content inside of the hero*/
+.hero-content{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: wheat;
+    height: auto;
+    margin-top: 20vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Design for the tag line above the products*/
+.products{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    text-shadow: 2px 2px #888888;
+    color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Bit of modifications done to the bootstrap card*/
+.card{
+    margin: 5px;
+    margin-top: 50px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    max-height: 1000px;
+}
+/*Same here*/
+.card-img-top{
+    border-start-end-radius: 25px; 
+    height: 40vh;
+    object-fit: cover;
+}
+/*Same here*/
+.card-img-top:hover{
+    transform: scale(0.95);
+    transition: 0.5s;  
+}
+/*Till here*/
+.price{
+    font-size: larger;
+    font-weight: 700;
+}
+/*Rest of mock up is on the footer and the elements in it*/
+/*Mods on footer*/
+footer{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #181818;
+}
+.footer{
+    padding: 50px;
+    
+}
+.text-footer{
+    margin: auto;
+}
+.form-button{
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.logo{
+    width: 40px;
+}
