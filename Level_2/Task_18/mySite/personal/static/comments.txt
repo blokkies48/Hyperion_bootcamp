@@ -1,0 +1,1 @@
+This folder contains the assets for both pages cv.html and yum_yum.html

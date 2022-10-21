@@ -1,0 +1,252 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Boilerplate code vs code generated-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/assets_CV/stylesheet.css' %}"> <!--Getting style sheet to apply to page-->
+    <title>Online CV</title>
+</head>
+<!--All elements that display on page is in the body-->
+<body>
+    <div class="page-contents">
+        <div class="contact_details">
+            <h2>
+                Curriculum Vitae of FJ Lloyd
+            </h2>
+            <img src="{% static 'assets_CV/me_photo.jpg' %}" alt="Photo of me" class="profile-image">
+            <div>
+                <dl class="details">
+                    <li>Name: Francis Jonathan Lloyd</li>
+                    <li>Contact: 060 790 4382</li>
+                    <li>Email: francisjlloyd15@gmail.com</li>
+                    <!--Linking svg and having it a clickable -->
+                    <li> <a href="https://www.linkedin.com/in/jonathan-lloyd-bb9a15240/" target="_blank"><img src="{% static 'assets_CV/social_media_svg/linkedin_logo_icon.svg'%}" alt="linkedin Logo" class="linkedin-logo" ></a></li>
+                </dl>
+            </div>
+        </div>
+        <hr>
+        <!--Next element on the page-->
+        <!--Just basic h2, h3, div and p elements-->
+        <div class="short-bio">
+            <h2 >
+                Short Bio
+            </h2>
+            <div class="grid-container-1">
+                <div class="grid-item-1">
+                    <h3>Who am I</h3>
+                    <p>
+                        I am introverted person that enjoys time spent with people that are are close to me, mainly family. I tend to be fair and be non biased rather siding with what I feel is right.
+                    </p>
+                </div>
+                <div class="grid-item-2">
+                    <h3>What's my experience</h3>
+                    <p>
+                        I have a wide range of experience. I worded as a boilermaker for around 6 years and have been studying code in my free time for about 2 years. I have also created two blogs and know quite a bit about SEO. I have also made a few wordpress sites for clients and currently working on ine. I grew up in Mozambique where I have worked and met a lot of people from a lot of different cultures. I tend to get a long with most people and be very respectful to everyone around me.
+                    </p>
+                </div>
+                <div class="grid-item-3">
+                    <h3>My motives</h3>
+                    <p>
+                        I love to learn new things and I really enjoy coding. I always try to do extra and not just what is required. I will really like to work in the gaming industry not just because I like to play games I would actually say I tend to barely play games. But because there is a lot of logic that goes into creating games and I enjoy the process.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!--H2 outside of div because the div is used in grid-->
+        <!--Also basic html elements-->
+        <!--They are braked down in h4 followed by a list-->
+        <h2>Skills and Competencies</h2>
+        <div class="skills">
+            <div>
+                <h3>Soft Skills</h3>
+                <h4>Programming languages</h4>
+                <dl class="list-1">
+                    <li>
+                        python
+                    </li>
+                    <li>
+                        C#
+                    </li>
+                </dl>
+                <h4>Mockup languages</h4>
+                <dl class="list-1">
+                    <li>
+                        html
+                    </li>
+                    <li>
+                        xml
+                    </li>
+                    <li>
+                        CSS
+                    </li>
+                </dl>
+                <h4>Website</h4>
+                <dl class="list-1">
+                    <li>
+                        Cpanel
+                    </li>
+                    <li>
+                        Wordpress
+                    </li>
+                </dl>
+                <h4>Design programmes</h4>
+                <dl class="list-1">
+                    <li>
+                        Affinity Photo
+                    </li>
+                    <li>
+                        Affinity Designer
+                    </li>
+                    <li>
+                        Affinity Publisher
+                    </li>
+                    <li>
+                        Davinci Resolve
+                    </li>
+                    <li>
+                        Unity
+                    </li>
+                </dl>
+                <h4>Google workspace</h4>
+                <dl class="list-1">
+                    <li>
+                        Google Docs
+                    </li>
+                    <li>
+                        Google Sheets
+                    </li>
+                </dl>
+            </div>
+            <div>
+                <h3>Hard Skills</h3>
+                <h4>Welding</h4>
+                <dl class="list-1">
+                    <li>
+                        MIG
+                    </li>
+                    <li>
+                        Stick
+                    </li>
+                    <li>
+                        Flux-core
+                    </li>
+                </dl>
+                <h4>Cutting</h4>
+                <dl class="list-1">
+                    <li>
+                        Oxy-fuel(LPG/Acetylene)
+                    </li>
+                    <li>
+                        Angle grinder
+                    </li>
+                </dl>
+                <h4>General metalwork</h4>
+                <dl class="list-1">
+                    <li>
+                        Bending
+                    </li>
+                    <li>
+                        Rolling
+                    </li>
+                    <li>
+                        Marking
+                    </li>
+                    <li>
+                        Drilling
+                    </li>
+                    <li>
+                        Heat treatment
+                    </li>
+                </dl>
+                <h4>Development of sheet metal</h4>
+            </div>
+        </div>
+        <hr>
+        <!--Next block just basic tags -->
+        <div class="education">
+            <h2>Education</h2>
+            <h3>IGCSE (International General Certificate of Secondary Education)</h3>
+            <p>
+                I received IGCSE in 2013 from Maputo International School. I can say I have been every lucky to be such a school where the teachers really was exceptional.
+            </p>
+            <h3>Boilermaker Red Seal</h3>
+            <p>
+                I received my read seal in 2020 from MCD in Meyerton. I did extremely well where I tended to be ahead and help out the other students involving development.
+            </p>
+            <h3>HyperionDev Software engineering bootcamp</h3>
+            <p>
+                Started the bootcamp in September 2022 I am currently on 99% average. I believe I am doing well. I don't know how well I am doing compared to my peers. I help out other students in the discord server where I can. <a href="https://www.hyperiondev.com/portfolio/94638/" target="_blank">My report</a><!--Adds a link in the end-->
+            </p>
+        </div>
+        <hr>
+        <!--Basic tags for this block-->
+        <h2>Work Experience</h2>
+        <div class="work-xp">
+            <h3>Early Years</h3>
+            <p>
+                I had a few jobs while still in school. After school I worked for a year as an assistant quantity surveyor for the loading of coal and magnetite in Mozambique.
+            </p>
+            <h3>2016 - 2022</h3>
+            <p>
+                I worked as a apprentice to a qualified boilermaker from 2016 to 2022 where I went from knowing nothing to being able to write my own blog and train other apprentices.<br>
+                I was studying and making websites on the side since 2022.
+            </p>
+            <h3>Current</h3>
+            <p>
+                Currently I am working as a freelance wordpress web developer and SEO consultant. While studying software engineering.
+            </p>
+        </div>
+        <hr>
+        <!--Sorted in h4 then list elements. with links in them-->
+        <div class="current-projects">
+            <h3>Websites wordpress</h3>
+            <h4>Blogs</h4>
+            <dl>
+                <li><a href="https://toolblogtalk.com/" target="_blank">Tool Blog Talk</a>  My Personal blog.</li>
+                <li><a href="https://thenailtechdiaries.com/" target="_blank">The Nail Tech Diaries</a> My first blog I made for my wife.</li>
+            </dl>
+            <h4>Some websites for clients</h4>
+            <dl>
+                <li>
+                    <a href="https://trexsecure.co.za/" target="_blank">T-rex Secure</a>
+                </li>
+                <li>
+                    <a href="https://kostersteel.co.za/" target="_blank">Koster Steel</a>
+                </li>
+                <li>
+                    <a href="https://29fevereiro.net/" target="_blank">29 Fevereiro</a>
+                </li>
+                <li>
+                    <a href="https://dhconsultores.net/" target="_blank">DH Consultores</a>
+                </li>
+            </dl>
+            <h4>Code projects</h4>
+            <dl>
+                <li><a href="https://github.com/blokkies48/" target="_blank">Github</a> </li>
+            </dl>
+        </div>
+        <hr>
+        <h2>Posts or articles I wrote</h2>
+        <p>
+            I took the photos, researched, and wrote all the posts for <a href="https://toolblogtalk.com/" target="_blank">Tool Blog Talk</a> <br>
+            Disclaimer: I took all the photos that aren't product photos and some stock
+        </p>
+    </div>
+    <!--Footer takes place after div that is used to edit page content-->
+    <footer>
+        <hr>
+        <div class="footer-container">
+            <div>
+                <p >
+                    Thank you for reaching till the end.
+                </p>
+                <p>All rights reserved © Francis Jonathan Lloyd</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
