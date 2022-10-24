@@ -1,0 +1,115 @@
+/*This is the to take affect over all content*/
+body{
+    display: block;
+    background-color: rgb(32, 32, 32);
+    padding: 0;
+    margin: 0;
+    font-family: "roboto";
+    color: gray;
+}
+
+/*Only for content on the page*/
+.page-contents{
+    display: block;
+    background-color: rgb(32, 32, 32);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    padding-top: 50px; 
+}
+/*Overrides html elements where I want them to look different whenever I use them*/
+h2{
+    color: aliceblue;
+}
+h3{
+    color: rgb(230, 230, 230);  
+    text-align: center;  
+}
+h4{
+    color: rgb(172, 172, 172);
+}
+
+a{
+    color: #dc143c;
+}
+
+hr{
+    border-color: #dc143c;
+}
+
+li{
+    margin: 0;
+}
+/*End of html elements*/
+
+/*Removing dots from lists*/
+.details{
+    list-style: none;
+}
+.list-1{
+    text-align: table;
+    list-style: none;
+}
+
+/*Editing profile image*/
+.profile-image{
+    width: 30%;
+    box-shadow: 5px 5px 10px 10px #181818;
+}
+/*Changing the width with media query on smaller screens*/
+@media (max-width: 760px) {
+    .profile-image {
+      width: auto;
+    }
+}
+
+/*Styling for linkedin logo svg*/
+.linkedin-logo{
+    width: 25px;
+    margin-top: 10px;
+}
+
+/*Used for arranging elements in a grid*/
+.grid-container-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*3 elements next to each other equally spaced*/
+    text-align: justify;
+    grid-gap: 20px;
+}
+/*Creating one column when on a smaller screen*/
+@media (max-width: 760px) {
+    .grid-container-1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+/*Similar to the above mention grid*/
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 760px) {
+    .skills {
+      grid-template-columns: 1fr;
+    }
+}
+
+/*Footer element added for fun this includes the body css but not the .page-content */
+footer{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #181818;
+}
+.footer-container{
+    padding: 50px;
+}
+
+/*got a lot of help from
+https://stackoverflow.com/
+https://www.geeksforgeeks.org/
+https://www.w3schools.com/
+*/

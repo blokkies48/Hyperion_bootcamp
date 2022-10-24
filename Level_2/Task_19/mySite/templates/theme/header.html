@@ -1,0 +1,22 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'theme/stylesheet.css' %}">
+<div class="header">
+    <div class="content">
+        <h2><a href="/">Logo</a></h2>
+        <nav class="nav">
+            <li class="nav_item">
+                <a href="/">home</a>
+            </li>
+            <li class="nav_item">
+                <a href="/blog">blog</a>
+            </li>
+        </nav>
+    </div>
+</div>
+
+
+<!--Where the content will be after the header-->
+<div class="page_content">
+    {% block content %}
+    {% endblock %}
+</div>
