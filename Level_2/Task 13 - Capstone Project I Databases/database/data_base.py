@@ -5,7 +5,7 @@ import sqlite3
 
 
 # Database objects
-db = sqlite3.connect("database\\ebookstore.db")
+db = sqlite3.connect("ebookstore.db")
 cursor = db.cursor()
 
 # Creates initial table in database

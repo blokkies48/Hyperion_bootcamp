@@ -1,0 +1,41 @@
+{"books":
+    [
+        {
+            "title":"Pride and Prejudice",
+            "author": "Jane Austen",
+            "rating": 4.28,
+            "Published": 1813
+        },
+        {
+            "title":"1984",
+            "author": "George Orwell",
+            "rating": 4.19,
+            "Published": 1949
+        },
+        {
+            "title":"Crime and Punishment",
+            "author": "Fyodor Dostoevsky",
+            "rating": 4.25,
+            "Published": 1866
+        },
+        {
+            "title":"Hamlet",
+            "author": "William Shakespeare",
+            "rating": 4.03,
+            "Published": 1601
+        },
+        {
+            "title":"One Hundred Years of Solitude",
+            "author": "Gabriel García Márquez",
+            "rating": 4.10,
+            "Published": 1967
+        },
+        {
+            "title":"Anna Karenina",
+            "author": "Leo Tolstoy",
+            "rating": 4.08,
+            "Published": 1878
+        }
+    ]
+
+}
