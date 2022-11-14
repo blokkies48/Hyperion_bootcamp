@@ -18,19 +18,17 @@ print("Linear search on unsorted array ", linear_search(arr, TARGET))
 # Point 3
 # Sources https://www.youtube.com/watch?v=R_wDA-PmGE4
 def insertion_sort(arr: list):
-    # Loops over every item except the first 
-    # Done to get the index
     for j in range(1, len(arr)):
         # Check if the left is bigger than the current item
         # Then a swap is done 
-        while arr[j - 1] > arr[j] and j > 0: # Avoid out of range
-            arr[j - 1], arr[j] = arr[j], arr[j - 1] # Swapping
-            j -= 1 # Moves to the left
+        while arr[j - 1] > arr[j] and j > 0:
+            arr[j - 1], arr[j] = arr[j], arr[j - 1] 
+            j -= 1 
 
     
 
 insertion_sort(arr)
-print(arr)
+print("Proof array is sorted",arr)
 # Point 4
 # other method of sorting is binary_search.
 # A real word example can be to find a ID number 
@@ -52,10 +50,6 @@ def binary_search(arr: list, target: int):
         else:
             right = mid - 1 # Same with the opposite. right will be 1
     return -1 # If element not in list then -1 will be returned
-    # -1 is chosen because int is expected to be returned
-    # This is done to avoid syntax errors
-    # If statement can be used when function is implemented
-    # E.g if binary_search(arr, tar) == -1: print("error")
-
+    
 print("Binary search sorted array ", binary_search(arr, TARGET))
 # I think this is a good choice because it is a lot faster than linear search especially if there is a lot of numbers involved
